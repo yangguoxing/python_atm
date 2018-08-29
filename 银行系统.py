@@ -33,15 +33,15 @@ def main():
         elif option == '5':
             atm.transferMoney()
         elif option == '6':
-            print("改密")
+            atm.changePwd()
         elif option == '7':
             atm.lockUser()
         elif option == '8':
             atm.unlockUser()
         elif option == '9':
-            print("补卡")
+            atm.newCard()
         elif option == '0':
-            print("销户")
+            atm.killUser()
         elif option == 't':
             return -1
 
